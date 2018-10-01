@@ -21,7 +21,7 @@ function traverse(dir, list) {
 }
 
 function isURL(url){
-  return /^(((https|http|ftp|rtsp|mms):)?\/\/)+[A-Za-z0-9]+\.[A-Za-z0-9]+[\/=\?%\-&_~`@[\]\':+!]*([^<>\"\"])*$/.test(url);
+  return /^(((https|http|ftp|rtsp|mms):)?\/\/)+[A-Za-z0-9]+.[A-Za-z0-9]+[/=?%\-&_~`@[\]':+!]*([^<>""])*$/.test(url);
 }
 
 export default (opt = {}) => {
