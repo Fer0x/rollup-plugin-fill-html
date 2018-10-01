@@ -27,7 +27,8 @@
   },
   "devDependencies": {
     "eslint": "^5.0.1",
-    "jasmine": "^3.1.0",
+    "jasmine": "^3.2.0",
+    "jasmine-es6": "^0.4.3",
     "rollup": "^0.62.0",
     "rollup-plugin-buble": "^0.19.2",
     "rollup-plugin-commonjs": "^9.1.3",
